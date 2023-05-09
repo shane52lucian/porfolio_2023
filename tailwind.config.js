@@ -8,14 +8,14 @@ module.exports = {
       'desktop': '1025px',
     },
     fontSize: {
-      '3xl': '5rem',
-      '2xl': '2.75rem',
+      '3xl': '4rem',
+      '2xl': '2.25rem',
       xl: '2rem',
       lg: '1.5rem',
       md: '1rem',
       sm: '0.875rem',
       xs: '0.75rem',
-      'subheading': '2.2rem'
+      'subheading': '2.1rem'
     },
     extend: {
       colors: {
