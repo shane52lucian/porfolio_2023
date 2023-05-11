@@ -39,6 +39,8 @@
   color: rgba(243, 243, 243, 0.6980392157);
   font-weight: 900;
   opacity: 0;
+  font-size: 80%;
+  margin-bottom: 0;
 }
 .projectTile .overlay a {
   margin-top: 1rem;
@@ -46,7 +48,9 @@
   border: 2px solid hsl(235, 100%, 50%);
   border-radius: 30px;
   display: inline-block;
-  padding: 1rem 3rem;
+  padding: 0.25rem 0;
+  width: 200px;
+  max-width: 85%;
   box-shadow: 2px 2px 6px 1px rgba(50, 50, 50, 0.5921568627);
   font-size: 0.8rem;
   opacity: 0;

@@ -643,20 +643,12 @@ li {
   margin-top: 2.5rem;
 }
 
-.mt-6 {
-  margin-top: 1.5rem;
-}
-
-.mb-1 {
-  margin-bottom: 0.25rem;
-}
-
-.mt-1 {
-  margin-top: 0.25rem;
-}
-
 .mt-5 {
   margin-top: 1.25rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
 }
 
 .flex {
@@ -681,6 +673,18 @@ li {
 
 .w-full {
   width: 100%;
+}
+
+.w-10 {
+  width: 2.5rem;
+}
+
+.w-36 {
+  width: 9rem;
+}
+
+.w-24 {
+  width: 6rem;
 }
 
 @keyframes wiggle {
@@ -749,6 +753,10 @@ li {
   border-radius: 9999px;
 }
 
+.rounded-lg {
+  border-radius: 0.5rem;
+}
+
 .rounded-t-3xl {
   border-top-left-radius: 1.5rem;
   border-top-right-radius: 1.5rem;
@@ -804,6 +812,14 @@ li {
 
 .bg-gradient-to-r {
   background-image: linear-gradient(to right, var(--tw-gradient-stops));
+}
+
+.bg-\[url\(\'\/assets\/img\/tejmahall\.png\'\)\] {
+  background-image: url('/assets/img/tejmahall.png');
+}
+
+.bg-\[url\(\'\/assets\/img\/ltdevs\.png\'\)\] {
+  background-image: url('/assets/img/ltdevs.png');
 }
 
 .from-primary-light {
@@ -957,10 +973,6 @@ li {
 }
 
 @media (min-width: 481px) {
-  .tablet\:mb-0 {
-    margin-bottom: 0px;
-  }
-
   .tablet\:mt-0 {
     margin-top: 0px;
   }
